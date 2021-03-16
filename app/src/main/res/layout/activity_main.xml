@@ -36,13 +36,15 @@
         android:layout_height="wrap_content"
         android:text="+2 Points"
         android:layout_margin="8dp"
-         />
+        android:onClick="addTwoForTeamA"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Free Throw"
         android:layout_margin="8dp"
+        android:onClick="addOneForTeamA"
 
         />
 

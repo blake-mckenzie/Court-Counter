@@ -16,11 +16,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-   public void addThreeForTeamA(View v){
+    /**
+     *
+     * Adds Three Points
+     */
+
+    public void addThreeForTeamA(View v){
         displayForTeamA(3);
    }
 
+    /**
+     *
+     * Adds Two Points
+     */
+    public void addTwoForTeamA(View v){
+        displayForTeamA(2);
+    }
 
+    /**
+     *
+     * Adds One Point
+     */
+    public void addOneForTeamA(View v){
+        displayForTeamA(1);
+    }
 
 
     /**
