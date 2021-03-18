@@ -8,6 +8,12 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    /*
+     Declare and Initialize Global Variable Here
+     */
+    int scoreTeamA = 0;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
