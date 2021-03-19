@@ -49,6 +49,13 @@
 
             />
 
+        <Button
+            android:id="@+id/addThreeForTeamB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:onClick="addThreeForTeamB"
+            android:text="+3 Points" />
 
     </LinearLayout>
 
