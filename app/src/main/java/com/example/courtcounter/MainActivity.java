@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      *
-     * Adds Three Points
+     * Adds Three Points for Team A
      */
 
     public void addThreeForTeamA(View v){
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     /**
      *
-     * Adds Two Points
+     * Adds Two Points for Team A
      */
     public void addTwoForTeamA(View v) {
         scoreTeamA = scoreTeamA + 2;
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     }
     /**
      *
-     * Adds One Point
+     * Adds One Point for Team A
      */
     public void addOneForTeamA(View v){
         scoreTeamA = scoreTeamA + 1;
@@ -57,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
         TextView scoreView = (TextView) findViewById(R.id.team_a_score);
         scoreView.setText(String.valueOf(score));
     }
+
 
 
 
